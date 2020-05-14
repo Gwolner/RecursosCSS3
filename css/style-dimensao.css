@@ -1,0 +1,18 @@
+#conteudo{
+	color: #fff;
+	background-color: green;
+	padding: 20px;
+	
+	/*Largura*/
+	width: 80%; /*Sem width a largura ocupa 100% da tela*/
+	max-width: 800px; /*Define um tamanho máximo*/
+	min-width: 500px; /*Define um tamanho mínimo*/
+	/* No caso acima, temos um tamanho que se comporta como 80% da tela,
+	porém respeitando a largura máxima de 500 pixels. Ou seja se 80% da 
+	tela tiver largura maior que 500px, a largura assumida será de 500px.
+	Caso a tela seja menor que 500px, o tamanho passa a ser 80% do tamanho
+	da tela. */
+	
+	
+	/*Sem height a altura fica automatica, de acordo com o conteúdo*/
+}
