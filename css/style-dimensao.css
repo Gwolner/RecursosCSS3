@@ -1,18 +1,74 @@
-#conteudo{
+/* Usado como referência para o height da altura.
+Mais detalhes no seletor #altura */
+html,body{
+	height:100%;
+	background-color: #2F4F4F;
+}
+
+#aviso{
+	color: #00FF00;
+}
+
+#largura{
 	color: #fff;
-	background-color: green;
+	background-color: #2E8B57;
 	padding: 20px;
 	
 	/*Largura*/
-	width: 80%; /*Sem width a largura ocupa 100% da tela*/
+	width: 80%;
 	max-width: 800px; /*Define um tamanho máximo*/
 	min-width: 500px; /*Define um tamanho mínimo*/
-	/* No caso acima, temos um tamanho que se comporta como 80% da tela,
-	porém respeitando a largura máxima de 500 pixels. Ou seja se 80% da 
-	tela tiver largura maior que 500px, a largura assumida será de 500px.
-	Caso a tela seja menor que 500px, o tamanho passa a ser 80% do tamanho
-	da tela. */
 	
+	/* No caso acima, temos um tamanho que se comporta como 80% da tela,
+	porém respeitando a largura máxima de 800 pixels. Ou seja se 80% da 
+	tela tiver largura maior que 800px, a largura assumida será de 800px.
+	Caso a tela seja menor que 800px, o tamanho passa a ser 80% do tamanho
+	da tela. E, caso a tela tenha tamanho menor que 500px, a tela criará 
+	uma barra de rolagem horizontal para preservar o tamanho mínimo de 
+	500px.*/
 	
 	/*Sem height a altura fica automatica, de acordo com o conteúdo*/
 }
+
+#altura{
+	color: #fff;
+	background-color: #6A5ACD;
+	padding: 20px;
+	
+	/*Altura*/
+	height: 50px; /*Não funciona com unidade % se não usar o referencial html,body lá de cima!*/
+	min-height:10px; /* Altura mínima desejada */
+	max-height: 50px; /* Altura máxima permitida */
+
+	/*Sem width a largura ocupa 100% da tela*/
+}
+
+#dimensoes{
+	color: #fff;
+	background-color: #DAA520;
+	padding: 20px;
+	
+	width: 90%;
+	min-width: 200px;
+	max-width: 1100px;
+	
+	/* height: 50px; */  
+	max-height: 100px;
+	
+	/*Não tem valor de altura fixo (comentado acima do max-height), mas sim 
+	um valor máximo de altura permitodo. Neste código, o texto ultrapassa a 
+	altura propositalmente a medida que a janela diminui horizontalmente*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
