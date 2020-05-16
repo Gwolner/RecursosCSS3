@@ -1,0 +1,39 @@
+/* Padding é um espaçamento interno em torno do elemento */
+
+/* OBS: O tamanho definido no padding se soma ao tamanho
+ da altura e largua definidos no width e no hieght! */
+#exemplo{
+	color: #FFFFE0;
+	background-color: #FF69B4;
+	width: 500px;
+	
+	/* Declarações de espaçamentos individuais */
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+
+/* A definção de padding com valor único significa que 
+os quatro lados do elemento terão o mesmo espaçamento:  
+
+	padding: 20px;
+
+*/
+
+#exemplo2{
+	color: #800000;
+	background-color: #FFD700;
+	width: 500px;
+	
+	/* Espaçamentos individuais no sentido horário */
+	padding: 10px 20px 30px 30px;
+	
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+	/* OU simplesmente: margin: 20px; */
+}
+
