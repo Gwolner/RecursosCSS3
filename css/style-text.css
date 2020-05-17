@@ -1,0 +1,36 @@
+p{
+	color: #A020F0;
+	text-align: justify; /*Deixa o texto justificado*/
+	text-transform: capitalize; /*Apenas a primeira letra de cada palavra fica maíuscula*/
+	text-indent: 20px; /*Define um recuo na linha (uma espécie de parágrafo)*/
+	line-height: 30px; /*Define a altura das linhas*/
+	direction: ltr; /*Direção de formação do texto: ltr ou rtl. O padrão é ltr (left to right)*/
+	letter-spacing: 3px; /*Espaçamento entre as letras*/
+	word-spacing: 10px; /*Espaçamento entre as palavras*/
+}
+
+h1{
+	text-align: left;	
+	text-decoration: line-through; /*Traça uma linha sobre o texto*/
+	text-transform: lowercase;  /*Deixa todo o texto minúsculo*/
+	
+}
+h2{
+	text-align: center;
+	text-decoration: overline;  /*Traça uma linha em cima do texto*/
+	text-transform: capitalize; /*Apenas a primeira letra de cada palavra fica maíuscula*/
+	text-shadow: 4px 4px #32CD32; /*Adiciona sombra ao texto. Os parametros são: 
+	
+	distância horizontal, distância vertical, desfoque (é opcional) e a cor da sombra.
+	São válidos:
+	
+	text-shadow: 3px 3px 4px #32CD32;  Ou text-shadow: 3px 3px #32CD32;
+
+	*/
+}
+
+h3{
+	text-align: right;
+	text-decoration: underline; /*Traça uma linha em baixo do texto*/
+	text-transform: uppercase; /*Deita todo o texto maiúsculo*/
+}
