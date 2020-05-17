@@ -1,0 +1,22 @@
+/*Questão usar acessibilidade na página: */
+ *{
+	font-size: 100%;
+ }
+ 
+ p{
+	font-family: Arial, "Times New Roman", serif; 
+	/*Define famílias de Fontes que podem ser usada, sendo a ultima 
+	um tipo genérico, caso não exista as duas primeiras no computador 
+	que se exibe o conteúdo da página.*/
+	
+	font-variant: small-caps; /*Os valores possíveis são small-caps e normal (default)*/
+	font-weight: bold; /*Os valores possíveis são bold (negrito) e normal (default) */
+	font-style: oblique; /*Os valores possíveis são italic, oblique (um italico mais inclinado) e normal (default)*/
+	font-size: 2.5em; /*2.5em equivale a 4px. 
+	
+	Esa unidade é usada para questões de acessibilidade (veja referencial lá em cima!).
+	
+	Ex: 40px (valor desejado) / 16 (contexto de unidade relativa) = 2.5em.
+	*/
+	
+ }

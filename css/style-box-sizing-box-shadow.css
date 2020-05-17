@@ -1,1 +1,17 @@
- 
+*{
+	box-sizing: border-box; /*Descrição abaixo, no seletor id conteudo*/
+}
+
+
+#conteudo{
+	color: #000000;
+	width: 300px;
+	background-color: #BDB76B;
+	padding: 20px;
+	box-sizing: border-box; /*Mantem a tamanho da DIV como 300px, 
+	pois com  o valor do padding, passaria a ser 340px!
+	
+	O mais indidaco é usar o box-sizing em um seletor universal 
+	e não em cada elemento.*/
+	box-shadow: 10px 10px 5px #A0522D; /*Atribui sombra ao elemento. Similar a atribuição para texto!*/
+}
