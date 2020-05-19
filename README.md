@@ -15,8 +15,8 @@ Box sizing e box shadow <br>
 Overflow e Opacity <br>
 Border radius <br>
 Fonts <br>
-@Font Face <br>
-Google Font <br>
+@Font Face com [Font Squirrel](https://www.fontsquirrel.com/) <br>
+Font externa com [Google Font](https://fonts.google.com/) <br>
 Colors e Gradients <br>
 Float <br>
 Position <br>
