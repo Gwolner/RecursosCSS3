@@ -1,0 +1,87 @@
+p{
+	color: #FFFAFA;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+div{
+	width: 300px;
+	height: 150px;
+}
+
+#bloco1{
+	background-color: rgb(75, 0, 130); /*Usando RGB para definir cores*/
+	border-radius: 20px; /*Cria todos os cantos arredondados*/
+}
+
+#bloco2{
+	background-color: rgba(128, 0, 128, 0.9); /*uso do RGBA para definir cor e OPACIDADE (varia de 0 a 1).*/
+	border-radius: 20px 50px; /*Cria cantos arredondados de formas opostas*/
+}
+
+#bloco3{
+	background-color: #BA55D3;
+	border-radius: 20px 50px 100px; /*Cria três cantos arredondados, sendo o quarto igual ao segundo*/
+}
+
+#bloco4{
+	background-color: #7B68EE;
+	border-radius: 20px 50px 100px 200px; /*Cria cantos arredondados distintos*/
+}
+
+#bloco5{
+	background-color: hsl(20, 100%, 59%); /*Definindo cores usando o HSL. Tambem existe o HSLA, que usa o parametro de OPACIDADE*/
+	border-top-left-radius: 20px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 35px;
+}
+
+#gradiente1{
+	background: linear-gradient(red, green);
+	border-radius: 5px;
+}
+
+#gradiente2{
+	background: linear-gradient(to right, green, blue);
+	border-radius: 5px;
+}
+
+#gradiente3{
+	background: linear-gradient(to top, green, red, blue);
+	border-radius: 5px;
+}
+
+#gradiente4{
+	background: linear-gradient(to top left, red, green);
+	border-radius: 5px;
+}
+
+#gradiente5{
+	background: linear-gradient(50deg, orange, blue, red);
+	border-radius: 5px;
+}
+
+#gradiente6{
+	background: linear-gradient(rgba(255,0,0,0.8), red, blue); /*Pode-se usar RGB ou RGBA*/
+	border-radius: 5px;
+}
+
+#gradiente7{
+	background: radial-gradient(orange, blue); /*A origem é sempre o centro*/
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
