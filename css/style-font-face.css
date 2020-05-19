@@ -1,0 +1,14 @@
+*{
+	font-size: 100%;
+}
+
+/* Importando um arquivo de fonte */
+@font-face{
+	font-family: alexbrush-regular-webfont;
+	src: url(../alexbrush-regular-webfont.woff);
+}
+
+p{
+	font-family: alexbrush-regular-webfont;
+	font-size: 2.5em;
+}
