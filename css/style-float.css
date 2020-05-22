@@ -1,0 +1,19 @@
+#base{
+	background-color: #32CD32;
+	width: 600px;
+	height: 600px;
+}
+
+#esquerda{
+	background-color: #FF6347;
+	width: 300px;
+	height: 300px;
+	float:left;
+}
+
+#direita{
+	background-color: #4682B4;
+	width: 300px;
+	height: 300px;
+	float: right;
+}

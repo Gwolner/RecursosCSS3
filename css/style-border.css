@@ -1,0 +1,70 @@
+#ex1{
+	border-style: dotted; /*Estilo da borda.*/
+	border-color: #FF7F50; /*Cor da borda.*/
+}
+ 
+#ex2{
+	border-style: dashed;
+}
+ 
+#ex3{
+	border-style: solid;
+	border-width: 5px; /*Tamanho da borda.*/
+}
+ 
+#ex4{
+	border-style: double;
+	outline-style: ridge; /*Estilo do contorno (borda da borda).*/
+	outline-width: 5px; /*Tamanho do contorno.*/
+}
+
+#ex5{
+	border-style: groove;
+	outline-style: dotted;}
+
+#ex6{
+	border-style: ridge;
+}
+
+#ex7{
+	border-style: inset;
+}
+
+#ex8{
+	border-style: outset;
+}
+
+#ex9{
+	border: outset 5px #DB7093; /*Definindo três propriedades da borda (estilo, tamanho e cor).*/
+	outline: dotted 5px #FF0000; /*Definindo três propriedades do contorno (estilo, tamanho e cor).*/
+	outline-offset: 15px; /*Distancia entre a borda e o contorno.*/
+}
+
+#ex10{
+	border-top: double 5px #BA55D3; /*Definindo apenas a borda superior*/
+	border-right: dotted 5px #DB7093; /*Definindo apenas a borda direita*/
+	border-bottom: dashed 5px #DB7093; /*Definindo apenas a borda inferior*/
+	border-left: solid 5px #4B0082; /*Definindo apenas a borda esquerda*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

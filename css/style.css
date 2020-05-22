@@ -4,8 +4,8 @@ seletor{
 }
 */
 
-/*Seletor universal*/
-/*Comumente usado para comportamento inicial de página*/
+/*Seletor universal. 
+Comumente usado para comportamento inicial de página*/
 *{
 	margin: 0;
 	padding: 0;
@@ -26,6 +26,7 @@ p{
 	
 }
 
+/*Seletor de atributos*/
 input[type="text"]{
 	width: 200px;
 	background-color: #ccc;
@@ -33,7 +34,6 @@ input[type="text"]{
 	border: none;
 }
 
-/*Seletor de atributos*/
 input[name="email"]{
 	width: 200px;
 	background-color: #ccc;

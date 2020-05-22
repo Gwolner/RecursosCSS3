@@ -1,4 +1,4 @@
-p{
+#texto{
 	color: #A020F0;
 	text-align: justify; /*Deixa o texto justificado*/
 	text-transform: capitalize; /*Apenas a primeira letra de cada palavra fica maíuscula*/

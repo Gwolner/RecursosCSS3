@@ -1,0 +1,16 @@
+ #conteudo{
+	width: 600px;
+	height: 1200px;
+	background-color: #FF8C00;
+	position: relative; /*Tira a referência da página e atribui a este elemento.*/
+ }
+ 
+#texto{
+	width: 500px;
+	background-color: #FFFF00;
+	position: absolute;  /*Usa um referencial: a página ou um "position: relative".*/
+	top: 40px;
+	left: 0px;
+	
+	/*Outros valores para position são: static (default) e fixed (deixa o elemento fixo na tela e não na página)*/
+ }
