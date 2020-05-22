@@ -1,0 +1,26 @@
+#transition{
+	background-color: #8B008B;
+	width: 200px;
+	height: 200px;
+	
+	/*Transição*/
+	transition-property: width;
+	transition-duration: 2s;
+	transation-timefunction: linear;
+	transation-delay: 2s;
+	
+	/*Propriedade estenográfica*/
+	transition:width 2s linear 1s;
+	
+	/*Mais de uma propriedade estenográfica*/
+	transition:width 2s linear 1s, height 2s linear 1s;
+	
+	transition:all 2s linear; /*Sem delay para que a animação seja imediata*/
+	
+}
+
+#transition:hover{
+	background-color: #FF00FF;
+	width: 350px;
+	height: 350px;
+}
