@@ -1,0 +1,105 @@
+/* ######################### CENÁRIO: Desenho original da situação. #########################*/
+
+.container{
+	background-color: #B22222;
+	width: 500px;
+}
+
+.box1{
+	background-color: #32CD32;
+	width: 150px;
+	height: 150px;
+}
+
+.box2{
+	background-color: #7B68EE;
+	width: 150px;
+	height: 150px;
+}
+
+/* ######################### PROBLEMA 1: Usa float no box 2. #########################*/
+
+.box2{
+	background-color: #7B68EE;
+	width: 150px;
+	height: 150px;
+	float: right; /*Flutuando para direita sobre o container.*/
+}
+
+/* ######################### PROBLEMA 2: Usa float no box 1. #########################*/
+
+.box1{
+	background-color: #32CD32;
+	width: 150px;
+	height: 150px;
+	float: left; /*Flutuando para esquerda sobre o container.*/ 
+}
+
+
+/* ######################### SOLUÇÃO 1: Container usando display: table; #########################*/
+
+/* .container{ */
+	/* background-color: #B22222; */
+	/* width: 500px; */
+	/* display: table; */
+/* } */
+
+/*SOBRE ESTA SOLUÇÃO: Há relatos de alguns desenvolvedores 
+de que ela gera outras inconsistências ao longo do projeto.*/
+
+
+
+/* ######################### SOLUÇÃO 2: Container usando float: left; #########################*/
+
+/* .container{ */
+	/* background-color: #B22222; */
+	/* width: 500px; */
+	/* float: left; */
+/* } */
+
+/*SOBRE ESTA SOLUÇÃO: O float: left; só vai funcionar se 
+a div tiver uma largura fixa (width com valores em pixels) 
+ou uma largura 100% do tamanho da tela (width 100%). 
+Alem disto, se for preciso colocar a div ao centro usando 
+margin: 0 auto; isso vai reqquerer que o flot: left; não
+seja usado, pois anularia o efeito do margin.
+*/
+
+
+
+/* ######################### SOLUÇÃO 3: Usando div com propriedade clear: both; #########################*/
+
+/* .clearfix{ */
+	/* clear: both; */
+/* } */
+
+/*SOBRE ESTA SOLUÇÃO: Todo container que 
+se tiver na página precisará de uma div 
+com a propriedade clear: both;*/
+
+
+
+/* ######################### SOLUÇÃO 4 - CLEARFIX: Usando pseudo-elements; #########################*/
+
+.container::before, .container::after{
+	content: '';
+	display: table;
+}
+
+.container::after{
+	clear: both;
+}
+
+/*SOBRE ESTA SOLUÇÃO: Todo container que 
+se tiver na página precisará de uma div 
+com a propriedade clear: both;*/
+
+
+
+
+
+
+
+
+
+

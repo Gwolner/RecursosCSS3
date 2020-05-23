@@ -1,0 +1,88 @@
+/*Nomenclatura da estrutura CSS
+seletor{
+	propriedade:valor;
+}
+*/
+
+/*Seletor universal. 
+Comumente usado para comportamento inicial de página*/
+*{
+	margin: 0;
+	padding: 0;
+	color: red;
+}
+
+/*Seletor de tipo(ou tag)*/
+h1{
+	color: green;
+	font-size: 40px;
+	font-family: tahoma;
+	
+}
+
+p{
+	color: blue;
+	font-size: 15px;
+	
+}
+
+/*Seletor de atributos*/
+input[type="text"]{
+	width: 200px;
+	background-color: #ccc;
+	height: 25px;
+	border: none;
+}
+
+input[name="email"]{
+	width: 200px;
+	background-color: #ccc;
+	height: 25px;
+	border: none;
+}
+
+input[value="Enviar"]{
+	width: 50px;
+	background-color: green;
+	height: 35px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+}
+
+/*Agrupamento de seletores*/
+h2, h3, p{
+	color: red;
+	text-align: center;
+}
+
+/*Seletor classe*/
+.seletor-classe{
+	color: gray;
+}
+
+/*Seletor id*/
+#seletor-id{
+	color: blue;
+}
+
+.classe-principal{
+	color: white;
+}
+
+.classe-fundo{
+	background-color: blue;
+}
+
+#id-unico{
+	color: white;
+	background-color: green;
+}
+
+
+
+
+
+
+
+
