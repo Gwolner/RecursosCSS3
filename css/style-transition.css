@@ -16,7 +16,6 @@
 	transition:width 2s linear 1s, height 2s linear 1s;
 	
 	transition:all 2s linear; /*Sem delay para que a animação seja imediata*/
-	
 }
 
 #transition:hover{

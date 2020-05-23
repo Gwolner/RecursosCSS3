@@ -1,0 +1,27 @@
+body{
+	background-image:url(../img/fundo.jpg);
+	background-repeat: repeat-x; /*Repete imgaem apenas na horizontal*/
+	background-repeat: repeat-y; /*Repete imgaem apenas na vertical*/
+	background-repeat: no-repeat; /*Repete imgaem apenas na horizontal*/
+	
+	background-position: 300px 500px; /*Coordenadas para posicionamento do background*/
+	
+	background-position: left;
+	background-position: center;
+	background-position: right;
+	
+	background-position: right bottom;
+	background-position: left top;
+	background-position: center;
+	
+	/*Background fixo*/
+	background-attachment:fixed; /*Valor padrão é scroll*/
+	
+	/*Definindo o tamanho do background*/
+	background-size: 300px 500px;
+	background-size: 100% 100%;
+	
+	/*Propriedade estenografica*/
+	background: url(../img/fundo.jpg) center center 100% 100% no-repeat fixed;
+}
+
