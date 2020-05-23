@@ -1,0 +1,11 @@
+:root{
+	--cor-de-fundo: #90EE90;
+	--cor-do-texto: #A020F0;
+	--espacamento: 20px;
+}
+
+#div1{
+	background-color: var(--cor-de-fundo);
+	color: var(--cor-do-texto);
+	padding: var(--espacamento);	
+}
