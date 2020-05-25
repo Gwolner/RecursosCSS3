@@ -15,6 +15,7 @@ nav{
 	background-color: #DC143C;
 }
 
+/*Usando Calc()*/
 .banner{
 	width: 100vw;
 	height: calc(100vh - 80px); /*A altura será a diferença do preenchimento total pelo tamanho do nav*/

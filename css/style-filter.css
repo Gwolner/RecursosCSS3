@@ -1,0 +1,21 @@
+img{
+	margin: 40px 0px 0px 60px;
+	filter: blur(4px);
+	filter: brightness(50%);
+	filter: contrast(50%);
+	filter: grayscale(100%);
+	filter: invert(100%);
+	filter: opacity(20%);
+	filter: saturate(150%);
+	filter: sepia(100%);
+	filter: hue-rotate(50deg); /*Muda as cores de acordo com o angulo informado.*/
+	filter: drop-shadow(10px 20px 5px #000); /*Offset horizontal, offset vertical, desfoque e cor.*/
+	
+	/*Multiplos filtros*/
+	filter: contrast(50%) drop-shadow(10px 20px 5px #000);
+	
+	
+	
+	
+	
+}
