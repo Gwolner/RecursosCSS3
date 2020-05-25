@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	pading: 0px;
+}
+
+nav{
+	width: 100vw;
+	height: 80px;
+	background-color: #6495ED;
+}
+
+.banner{
+	width: 100vw;
+	height: 100vh; /*A altura da tela será 100vh somados aos 80px, criando uma scrollbar lateral*/
+	background-color: #DC143C;
+}
+
+.banner{
+	width: 100vw;
+	height: calc(100vh - 80px); /*A altura será a diferença do preenchimento total pelo tamanho do nav*/
+	background-color: #DC143C;
+}
