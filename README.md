@@ -74,7 +74,7 @@ h2, h3, p{
 
 * Dimensões (referência, width, height, min e max)
 ```css
-/* Usado como referência para que o height possa utilizar outras unidades(em, vh, wh, em) além do px.*/
+/* Usado como referência para que o height possa utilizar outras unidades(em, vh, vw, em) além do px.*/
 html,body{
   height:100%;
 }
