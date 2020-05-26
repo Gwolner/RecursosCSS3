@@ -42,10 +42,10 @@
 }
 
 #ex10{
-	border-top: double 5px #BA55D3; /*Definindo apenas a borda superior*/
-	border-right: dotted 5px #DB7093; /*Definindo apenas a borda direita*/
-	border-bottom: dashed 5px #DB7093; /*Definindo apenas a borda inferior*/
-	border-left: solid 5px #4B0082; /*Definindo apenas a borda esquerda*/
+	border-top: double 5px #BA55D3; /*Definindo apenas a borda superior.*/
+	border-right: dotted 5px #DB7093; /*Definindo apenas a borda direita.*/
+	border-bottom: dashed 5px #DB7093; /*Definindo apenas a borda inferior.*/
+	border-left: solid 5px #4B0082; /*Definindo apenas a borda esquerda.*/
 }
 
 

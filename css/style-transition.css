@@ -6,8 +6,8 @@
 	/*Transição*/
 	transition-property: width;
 	transition-duration: 2s;
-	transation-timefunction: linear;
-	transation-delay: 2s;
+	transition-timefunction: linear;
+	transition-delay: 2s;
 	
 	/*Propriedade estenográfica*/
 	transition:width 2s linear 1s;

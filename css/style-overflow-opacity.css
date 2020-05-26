@@ -3,7 +3,7 @@
 	width: 250px;
 	height: 50px;
 	background-color: #BDB76B;
-	overflow: auto /*Trata do excedente de texto de um elemento. 
+	overflow: auto; /*Trata do excedente de texto de um elemento. 
 	Os valores podem ser: 
 	
 	visible (default), 
