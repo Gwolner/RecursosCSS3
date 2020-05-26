@@ -210,22 +210,22 @@ html,body{
   
   /*Altera os vértices individualmente.*/
   border-top-left-radius: 20px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 50px;
-	border-bottom-left-radius: 35px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 35px;
 ```
 
 * Fonts
 ```css
   font-family: Arial, "Times New Roman", serif; /*Define famílias de fontes que podem ser usadas.*/
   font-variant: small-caps; /*Os valores possíveis são small-caps e normal (default)*/
-	font-weight: bold; /*Os valores possíveis são bold (negrito) e normal (default) */
-	font-style: oblique; /*Os valores possíveis são italic, oblique (um italico mais inclinado) e normal (default)*/
-	font-size: 2.5em; /*2.5em equivale a 4px.*/
+  font-weight: bold; /*Os valores possíveis são bold (negrito) e normal (default) */
+  font-style: oblique; /*Os valores possíveis são italic, oblique (um italico mais inclinado) e normal (default)*/
+  font-size: 2.5em; /*2.5em equivale a 4px.*/
   
   /*OBS: A unidade "em" é usada para questões de acessibilidade, usando o referencial *{font-size: 100%;}.
-	
-	Ex: 40px (valor desejado) / 16 (contexto de unidade relativa) = 2.5em.*/
+  
+  Ex: 40px (valor desejado) / 16 (contexto de unidade relativa) = 2.5em.*/
 ```
 
 * @Font Face com [Font Squirrel](https://www.fontsquirrel.com/)
@@ -289,7 +289,7 @@ html,body{
 
   position: relative; /*Tira a referência da página e atribui a este elemento.*/
   
-  /*OBS: Outros valores para position são: static (default) e fixed (deixa o elemento fixo na tela e não na página).*/
+  /*Outros valores para position são: static (default) e fixed (deixa o elemento fixo na tela e não na página).*/
 ```
 
 * Border e Outline
@@ -304,18 +304,19 @@ html,body{
   
   /*Definindo apenas uma borda.*/
   border-top: double 5px #BA55D3; /*Definindo apenas a borda superior*/
-	border-right: dotted 5px #DB7093; /*Definindo apenas a borda direita*/
-	border-bottom: dashed 5px #DB7093; /*Definindo apenas a borda inferior*/
-	border-left: solid 5px #4B0082; /*Definindo apenas a borda esquerda*/
+  border-right: dotted 5px #DB7093; /*Definindo apenas a borda direita*/
+  border-bottom: dashed 5px #DB7093; /*Definindo apenas a borda inferior*/
+  border-left: solid 5px #4B0082; /*Definindo apenas a borda esquerda*/
   
   /*Outline*/
   
   outline-style: ridge; /*Estilo do contorno (borda da borda).*/
-	outline-width: 5px; /*Tamanho do contorno.*/
+  
+  outline-width: 5px; /*Tamanho do contorno.*/
   
   outline: dotted 5px #FF0000; /*Definindo três propriedades do contorno (estilo, tamanho e cor).*/
   
-	outline-offset: 15px; /*Distancia entre a borda e o contorno.*/
+  outline-offset: 15px; /*Distancia entre a borda e o contorno.*/
 
 ```
 
@@ -341,19 +342,19 @@ html,body{
   background-image:url(../img/fundo.jpg); /*Adiciona imagem.*/
   
   /*Repetição de imagem*/
-	background-repeat: repeat-x; /*Repete imgaem apenas na horizontal.*/
-	background-repeat: repeat-y; /*Repete imgaem apenas na vertical.*/
-	background-repeat: no-repeat; /*Repete imgaem apenas na horizontal.*/
-	
-	background-position: 300px 500px; /*Coordenadas para posicionamento do background.*/
+  background-repeat: repeat-x; /*Repete imgaem apenas na horizontal.*/
+  background-repeat: repeat-y; /*Repete imgaem apenas na vertical.*/
+  background-repeat: no-repeat; /*Repete imgaem apenas na horizontal.*/
+  
+  background-position: 300px 500px; /*Coordenadas para posicionamento do background.*/
 
   /*Coordenadas predefinidas.*/
-	background-position: left;
-	background-position: center;
-	background-position: right;
-	
-	background-position: right bottom;
-	background-position: left top;
+  background-position: left;
+  background-position: center;
+  background-position: right;
+  
+  background-position: right bottom;
+  background-position: left top;
 
   /*Fixar background*/
   background-attachment:fixed; /*Valor padrão é scroll.*/
