@@ -1,17 +1,17 @@
 # CSS3 practice
 
-> Práticas de CSS para aperfeiçoar os conhecimentos já adquiridos, além de servir como consulta aos devs que estão iniciando no mundo das folhas de estilo em cascata.
+> Práticas de CSS para aperfeiçoar os conhecimentos já adquiridos, além de servir como consulta a todos que estão iniciando no mundo das folhas de estilo em cascata.
 
 ## Cronograma de práticas
 
-* Sintaxe 
+🎨 Sintaxe 
 ```css
 seletor{
   propriedade:valor;
 }
 ```
 
-* Seletores universal, de tipo e de atributo
+🎨 Seletores universal, de tipo e de atributo
 ```css
 /*Seletor universal. Comumente usado para definir o comportamento inicial de página.*/
 *{
@@ -49,7 +49,7 @@ input[name="email"]{
 }
 ```
 
-* Agrupamento de seletores
+🎨 Agrupamento de seletores
 ```css
 h2, h3, p{
   color: red;
@@ -57,7 +57,7 @@ h2, h3, p{
 }
 ```
 
-* Seletores id e class
+🎨 Seletores id e class
 ```css
 /*Seletor id.*/
 #seletor-id{
@@ -72,7 +72,7 @@ h2, h3, p{
 }
 ```
 
-* Dimensões (referência, width, height, min e max)
+🎨 Dimensões (referência, width, height, min e max)
 ```css
 /* Usado como referência para que o height possa utilizar outras unidades(em, vh, vw, em) além do px.*/
 html,body{
@@ -94,7 +94,7 @@ html,body{
   max-height: 50px; /* Altura máxima permitida.*/
 ```
 
-* Padding e Margin
+🎨 Padding e Margin
 ```css
   /*Quatro lados iguais.*/
   
@@ -125,7 +125,7 @@ html,body{
   margin-left: 20px;
 ```
 
-* Propriedades de texto
+🎨 Propriedades de texto
 ```css
   /*Posição do texto na página.*/
   
@@ -170,7 +170,7 @@ html,body{
   word-spacing: 10px; /*Espaçamento entre as palavras.*/
 ```
 
-* Box sizing e box shadow
+🎨 Box sizing e box shadow
 ```css  
   box-sizing: border-box; /*Mantem o tamanho definido da DIV, não somando com o padding.*/
   
@@ -184,7 +184,7 @@ html,body{
   box-shadow: 10px 10px 5px #A0522D; /*Atribui sombra ao elemento. Similar a atribuição para texto.*/
 ```
 
-* Overflow e Opacity
+🎨 Overflow e Opacity
 ```css
   /*Overflow - Trata do excedente de texto de um elemento.*/
   
@@ -198,7 +198,7 @@ html,body{
   opacity: 0.3; /*Os valores variam de 0 (0%) até 1 (100%)*/
 ```
 
-* Border radius
+🎨 Border radius
 ```css
   border-radius: 20px; /*Cria todos os vértices arredondados.*/
   
@@ -215,7 +215,7 @@ html,body{
   border-bottom-left-radius: 35px;
 ```
 
-* Fonts
+🎨 Fonts
 ```css
   font-family: Arial, "Times New Roman", serif; /*Define famílias de fontes que podem ser usadas.*/
   font-variant: small-caps; /*Os valores possíveis são small-caps e normal (default)*/
@@ -228,7 +228,7 @@ html,body{
   Ex: 40px (valor desejado) / 16 (contexto de unidade relativa) = 2.5em.*/
 ```
 
-* @Font Face com [Font Squirrel](https://www.fontsquirrel.com/)
+🎨 @Font Face com [Font Squirrel](https://www.fontsquirrel.com/)
 ```css
   /* Importando um arquivo de fonte */
   @font-face{
@@ -241,7 +241,7 @@ html,body{
   font-size: 2.5em;
 ```
 
-* Font externa com [Google Font](https://fonts.google.com/)
+🎨 Font externa com [Google Font](https://fonts.google.com/)
 ```html
   <!-- Copiar e colar o link diretamente do Google fonts -->
 
@@ -253,7 +253,7 @@ html,body{
   font-size: 2.5em;
 ```
 
-* Colors e Gradients
+🎨 Colors e Gradients
 ```css
   /*Colors*/
 
@@ -276,14 +276,14 @@ html,body{
   background: radial-gradient(orange, blue); /*A origem é sempre o centro.*/
 ```
 
-* Float
+🎨 Float
 ```css
   float:left;
   
   float: right;
 ```
 
-* Position
+🎨 Position
 ```css
   position: absolute;  /*Usa um referencial: a página ou um "position: relative".*/
 
@@ -292,7 +292,7 @@ html,body{
   /*Outros valores para position são: static (default) e fixed (deixa o elemento fixo na tela e não na página).*/
 ```
 
-* Border e Outline
+🎨 Border e Outline
 ```css
   /*Border*/
   
@@ -320,7 +320,7 @@ html,body{
 
 ```
 
-* Transition
+🎨 Transition
 ```css
   /*Transição*/
   transition-property: width;
@@ -337,7 +337,7 @@ html,body{
   transition:all 2s linear; /*Sem delay para que a animação seja imediata.*/
 ```
 
-* Background
+🎨 Background
 ```css
   background-image:url(../img/fundo.jpg); /*Adiciona imagem.*/
   
