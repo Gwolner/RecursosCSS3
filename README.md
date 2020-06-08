@@ -1,4 +1,4 @@
-# CSS3 practice
+# Perfecting CSS3
 
 > Práticas de CSS para aperfeiçoar os conhecimentos já adquiridos, além de servir como consulta a todos que estão iniciando no mundo das folhas de estilo em cascata.
 
