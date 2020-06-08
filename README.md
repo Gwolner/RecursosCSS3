@@ -5,24 +5,24 @@
 ## Cronograma de práticas
 
 [Sintaxe](https://github.com/Gwolner/css3-practice#-sintaxe) <br>
-[Seletores universal, de tipo e de atributo]() <br>
-[Agrupamento de seletores]() <br>
-[Seletores id e class]() <br>
-[Dimensões (referência, width, height, min e max)]() <br>
-[Padding e Margin]() <br>
-[Propriedades de texto]() <br>
-[Box sizing e box shadow]() <br>
-[Overflow e Opacity]() <br>
-[Border radius]() <br>
-[Fonts]() <br>
-[@Font Face]() <br>
-[Fonte externa]() <br>
-[Colors e Gradients]() <br>
-[Float]() <br>
-[Position]() <br>
-[Border e Outline]() <br>
-[Transition]() <br>
-[Background]() <br>
+[Seletores universal, de tipo e de atributo](https://github.com/Gwolner/css3-practice#-seletores-universal-de-tipo-e-de-atributo) <br>
+[Agrupamento de seletores](https://github.com/Gwolner/css3-practice#-agrupamento-de-seletores) <br>
+[Seletores id e class](https://github.com/Gwolner/css3-practice#-seletores-id-e-class) <br>
+[Dimensões (referência, width, height, min e max)](https://github.com/Gwolner/css3-practice#-dimens%C3%B5es-refer%C3%AAncia-width-height-min-e-max) <br>
+[Padding e Margin](https://github.com/Gwolner/css3-practice#-padding-e-margin) <br>
+[Propriedades de texto](https://github.com/Gwolner/css3-practice#-propriedades-de-texto) <br>
+[Box sizing e box shadow](https://github.com/Gwolner/css3-practice#-box-sizing-e-box-shadow) <br>
+[Overflow e Opacity](https://github.com/Gwolner/css3-practice#-overflow-e-opacity) <br>
+[Border radius](https://github.com/Gwolner/css3-practice#-border-radius) <br>
+[Fonts](https://github.com/Gwolner/css3-practice#-fonts) <br>
+[@Font Face](https://github.com/Gwolner/css3-practice#-font-face-com-font-squirrel) <br>
+[Fonte externa](https://github.com/Gwolner/css3-practice#-fonte-externa-com-google-font) <br>
+[Colors e Gradients](https://github.com/Gwolner/css3-practice#-colors-e-gradients) <br>
+[Float](https://github.com/Gwolner/css3-practice#-float) <br>
+[Position](https://github.com/Gwolner/css3-practice#-position) <br>
+[Border e Outline](https://github.com/Gwolner/css3-practice#-border-e-outline) <br>
+[Transition](https://github.com/Gwolner/css3-practice#-transition) <br>
+[Background](https://github.com/Gwolner/css3-practice#-background) <br>
 
 ## Estrutura de códigos
 
