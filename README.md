@@ -2,7 +2,7 @@
 
 > Práticas de CSS para aperfeiçoar os conhecimentos já adquiridos, além de servir como consulta a todos que estão iniciando no mundo das folhas de estilo em cascata.
 
-<img src="img/banner.JPG" height="290" align="center"/>
+<img src="img/banner.JPG"/>
 
 ## Cronograma de práticas
 
