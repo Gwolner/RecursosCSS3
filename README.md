@@ -4,25 +4,25 @@
 
 ## Cronograma de práticas
 
-Sintaxe
-Seletores universal, de tipo e de atributo
-Agrupamento de seletores
-Seletores id e class
-Dimensões (referência, width, height, min e max)
-Padding e Margin
-Propriedades de texto
-Box sizing e box shadow
-Overflow e Opacity
-Border radius
-Fonts
-@Font Face
-Fonte externa
-Colors e Gradients
-Float
-Position
-Border e Outline
-Transition
-Background
+[Sintaxe](https://github.com/Gwolner/css3-practice#-sintaxe) <br>
+[Seletores universal, de tipo e de atributo]() <br>
+[Agrupamento de seletores]() <br>
+[Seletores id e class]() <br>
+[Dimensões (referência, width, height, min e max)]() <br>
+[Padding e Margin]() <br>
+[Propriedades de texto]() <br>
+[Box sizing e box shadow]() <br>
+[Overflow e Opacity]() <br>
+[Border radius]() <br>
+[Fonts]() <br>
+[@Font Face]() <br>
+[Fonte externa]() <br>
+[Colors e Gradients]() <br>
+[Float]() <br>
+[Position]() <br>
+[Border e Outline]() <br>
+[Transition]() <br>
+[Background]() <br>
 
 ## Estrutura de códigos
 
