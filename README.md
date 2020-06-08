@@ -2,6 +2,8 @@
 
 > Práticas de CSS para aperfeiçoar os conhecimentos já adquiridos, além de servir como consulta a todos que estão iniciando no mundo das folhas de estilo em cascata.
 
+<img src="img/banner.JPG" height="290" align="center"/>
+
 ## Cronograma de práticas
 
 [Sintaxe](https://github.com/Gwolner/css3-practice#-sintaxe) <br>
