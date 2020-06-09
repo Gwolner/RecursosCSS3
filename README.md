@@ -1,6 +1,6 @@
 # Recursos CSS3
 
-> Alguns recursos do CSS3 para aperfeiçoar o conhecimento já adquirido, servindo de consulta para manipulação básica das folhas de estilo em cascata.
+> Práticas que utilizam alguns recursos do CSS3 para aperfeiçoar o conhecimento já adquirido, servindo de consulta para manipulação básica das folhas de estilo em cascata.
 
 ## Cronograma de práticas
 
