@@ -1,8 +1,6 @@
-# Perfecting CSS3
+# Recursos CSS3
 
-> Práticas de CSS para aperfeiçoar os conhecimentos já adquiridos, além de servir como consulta a todos que estão iniciando no mundo das folhas de estilo em cascata.
-
-<img src="img/banner.JPG"/>
+> Alguns recursos do CSS3 para aperfeiçoar o conhecimento já adquirido, servindo de consulta para manipulação básica das folhas de estilo em cascata.
 
 ## Cronograma de práticas
 
